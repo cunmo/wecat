@@ -1,0 +1,21 @@
+<!--pages/com/index.wxml-->
+<view class="contain" hover-class="containr-hover" hover-start-time="50" hover-stay-time="200">
+    123123
+    <cover-view style="background-color: red;">12313</cover-view>
+</view>
+<view>
+    asdasdsa
+</view>
+<text class="textContainer" user-select="true" style="font-size: 10; color: red;">1232133</text>
+<text>text内容不要换行</text>
+<!-- nodes 支持字符串和数组 但是字符串性能更好 -->
+<rich-text nodes="{{ htmlShip }}"></rich-text>
+<image src="https://gw.alipayobjects.com/mdn/rms_fa9129/afts/img/A*glr_SLxYYO4AAAAAAAAAAAAAARQnAQ" alt="" class="imgsshow" />
+<movable-area class="moveClass">
+    <movable-view class="moveSon" direction="all">123</movable-view>
+</movable-area>
+<scroll-view class="scrollView" scroll-y="true">
+    <view id="demo1" class="scroll-view-item demo-text-1"></view>
+    <view id="demo2" class="scroll-view-item demo-text-2"></view>
+    <view id="demo3" class="scroll-view-item demo-text-3"></view>
+</scroll-view>

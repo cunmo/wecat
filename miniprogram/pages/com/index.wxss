@@ -1,0 +1,51 @@
+/* pages/com/index.wxss */
+.contain{
+    width: 100%;
+    height: 400rpx;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.containr-hover{
+    background-color: black;
+}
+.textContainer{
+    margin: 0;
+    padding: 0;
+}
+.imgsshow{
+    width: 100%;
+    vertical-align: middle;
+}
+.moveClass{
+    width: 400rpx;
+    height: 400rpx;
+    background-color: #ccc;
+}
+.moveSon{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.scrollView{
+    width: 100%;
+    height: 400rpx;
+}
+
+#demo1{
+    width: 100%;
+    height: 400rpx;
+    background-color: blue;
+}
+#demo2{
+    width: 100%;
+    height: 400rpx;
+    background-color: green;
+}
+
+#demo3{
+    width: 100%;
+    height: 400rpx;
+    background-color: pink;
+}

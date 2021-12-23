@@ -1,0 +1,8 @@
+/* pages/grammar/index.wxss */
+.removeColor{
+    color: blue;
+}
+
+.addColor{
+    color: red;
+}

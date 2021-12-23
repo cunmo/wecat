@@ -1,0 +1,28 @@
+<!--pages/grammar/index.wxml-->
+<!-- 数据绑定 -->
+<view>{{ message }}</view>
+<!-- 组件属性也需要在双引号里面 -->
+<view id="item-{{ ids }}">组件属性也需要在双引号里面</view>
+<!-- 不要直接写 checked="false"，其计算结果是一个字符串，转成 boolean 类型后代表真值。运算 -->
+<checkbox checked="{{ false }}"></checkbox>
+<!-- 模板运算 -->
+<view>{{ a + b }}</view>
+<view hidden="{{ a + b > 3 ? true : false}}">是否颖仓</view>
+<button bindtap="addHandler" data-number="{{ -10 }}">add</button>
+
+<!-- class 写法 -->
+<view class="{{ a + b > 0 ? 'addColor': 'removeColor'}}" style="{{ a + b > 0 ? 'font-size: 20px;' : 'font-size: 140px;'}}">{{ a + b}}</view>
+
+
+
+<!-- 循环渲染 -->
+<view wx:for="{{ array }}"  wx:key="message" >
+<text>{{ item.messagelo }}</text>
+<view wx:for="{{ item.a }}" wx:key="s" wx:for-item="nod">
+    <text>{{ nod.s + nod.b }}</text>
+</view>
+</view>
+<!-- 条件渲染 -->
+<view wx:if="{{ message === '123'}}">{{ message }}</view>
+<button bindtap="tapChangeMessage">click</button>
+
