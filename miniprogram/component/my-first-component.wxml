@@ -1,0 +1,6 @@
+<!--component/my-first-component.wxml-->
+<view>
+    <slot name="before"></slot>
+    <text class="classname ~setl">{{ innerText }}</text>
+    <slot name="after"></slot>
+</view>

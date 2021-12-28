@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my-first-com": "/component/my-first-component",
+    "van-button": "@vant/weapp/button/index"
+  }
 }

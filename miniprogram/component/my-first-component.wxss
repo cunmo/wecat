@@ -1,0 +1,4 @@
+/* component/my-first-component.wxss */
+:host{
+    color: brown;
+}
