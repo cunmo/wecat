@@ -1,10 +1,16 @@
 // pages/grammar/index.ts
+const app = getApp()
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
+        navbarData: {
+            showCapsule: 1, //是否显示左上角图标   1表示显示    0表示不显示
+            title: '1', //导航栏 中间的标题
+          },
+          height: app.globalData.height * 2 + 20 ,
         message: "模板语法配置",
         isClick: false,
         // array: [{a: [1,2,3,4], b: 2}, {a: [3,4,5,6], b: 4}, {a: [3,7,8,9], b: 6}],

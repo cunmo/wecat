@@ -1,6 +1,14 @@
 {
   "usingComponents": {
     "my-first-com": "/component/my-first-component",
-    "van-button": "@vant/weapp/button/index"
-  }
+    "van-button": "@vant/weapp/button/index",
+    "nav-bar": "/component/navbar/index"
+  },
+  "navigationBarBackgroundColor": "#e345e4",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "微信接口功能演示",
+  "backgroundColor": "#e3e4e1",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom"
 }

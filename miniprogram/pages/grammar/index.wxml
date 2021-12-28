@@ -1,9 +1,15 @@
 <!--pages/grammar/index.wxml-->
+<nav-bar navbar-data='{{navbarData}}'></nav-bar>
+
+<view class='home-page' style='margin-top: {{height}}px'>
+  home page
+</view>
+
 <view id="templates">
     <!-- 数据绑定 -->
     <view>{{ message }}</view>
     <!-- 组件属性也需要在双引号里面 -->
-    <view id="item-{{ ids }}">组件属性也需要在双引号里面</view>
+    <view id="item-{{ ids }}">组件属性也需要在双引号里面-</view>
     <!-- 不要直接写 checked="false"，其计算结果是一个字符串，转成 boolean 类型后代表真值。运算 -->
     <checkbox checked="{{ false }}"></checkbox>
     <!-- 模板运算 -->
